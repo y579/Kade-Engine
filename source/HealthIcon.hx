@@ -30,7 +30,6 @@ class HealthIcon extends FlxSprite
 		animation.add('senpai', [22, 22], 0, false, isPlayer);
 		animation.add('senpai-angry', [22, 22], 0, false, isPlayer);
 		animation.add('spirit', [23, 23], 0, false, isPlayer);
-		//why the FUCK does old bf still exist???
 		animation.add('gf', [16], 0, false, isPlayer);
 		animation.add('gf-christmas', [16], 0, false, isPlayer);
 		animation.add('gf-pixel', [16], 0, false, isPlayer);
@@ -45,6 +44,7 @@ class HealthIcon extends FlxSprite
 				antialiasing = false;
 		}
 
+//why the FUCK does old bf still exist???
 		scrollFactor.set();
 	}
 
