@@ -3209,7 +3209,8 @@ class PlayState extends MusicBeatState
 			public var fuckingVolume:Float = 1;
 			public var useVideo = false;
 
-			public static var webmHandler:WebmHandler;
+			public static var 
+			Handler:WebmHandler;
 
 			public var playingDathing = false;
 
@@ -3245,6 +3246,7 @@ class PlayState extends MusicBeatState
 
 					var ourSource:String = "assets/videos/daWeirdVid/dontDelete.webm";
 					var str1:String = "WEBM SHIT"; 
+					WebmPlayer.SKIP_STEP_LIMIT = 90;
 					webmHandler = new WebmHandler();
 					webmHandler.source(ourSource);
 					webmHandler.makePlayer();
