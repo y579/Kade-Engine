@@ -29,7 +29,8 @@
 	 - `haxelib git polymod https://github.com/larsiusprime/polymod.git`
 	 - `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc`
 	 - `haxelib install actuate`
-	 - `haxelib git extension-webm https://github.com/KadeDev/extension-webm`
+	 - `haxelib git extension-webm https://github.com/y579/extension-webm`
+	 - INSTALL MY VERSION OR IT WONT WORK BECAUSE KADE IS DUM
 	 - `lime rebuild extension-webm windows`
 
 ### Windows-only dependencies (only for building *to* Windows. Building html5 on Windows does not require this)
