@@ -69,6 +69,25 @@ using StringTools;
 
 class PlayState extends MusicBeatState
 {
+		function changeDadCharacter(id:String) // thth an kj you bob mod you are epic!!!!1!! - fabs
+	{				
+		var olddadx = dad.x;
+		var olddady = dad.y;
+		remove(dad);
+		dad = new Character(olddadx, olddady, id);
+		add(dad);
+		iconP2.changeIcon(id);
+	}
+
+	function changeBFCharacter(id:String) // thth an kj you bob mod you are epic!!!!1!! - fabs
+	{				
+		var oldboyfriendx = boyfriend.x;
+		var oldboyfriendy = boyfriend.y;
+		remove(boyfriend);
+		boyfriend = new Boyfriend(oldboyfriendx, oldboyfriendy, id);
+		add(boyfriend);
+		iconP1.changeIcon(id);
+	
 	public static var instance:PlayState = null;
 
 	public static var curStage:String = '';
